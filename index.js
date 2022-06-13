@@ -61,11 +61,6 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 		crash.play();
 			
 		break;
-		case "m":
-		// statements_8
-		var fatiha = new Audio("sounds/001.mp3");
-		fatiha.play();
-		break;
 		default:
 			// statements_def
 			console.log(buttonInnerHtml);
@@ -81,35 +76,3 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 		}, 300);
 
 	}
-
-
-	// this.style.color = "white";
-	// var audio = new Audio("sounds/tom-1.mp3");
-	// audio.play();
-// });
-// }
-// document.querySelector("button").addEventListener("click", myaudio);
-// function myaudio(){
-// 	this.style.color = "white";
-
-// }
-// var audio = new Audio("sounds/tom-1.mp3");
-// 	audio.play();
-
-
-// document.querySelector("button").addEventListener("click", audio);
-
-// function audio(){
-// 	audio(sounds/tom-1.mp3);
-// }
-
-// document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-// 	// body... 
-// 	alert("I clicked on ");
-// });
-
-
-// function handleClick () {
-// 	// body... 
-// 	alert("I clicked on ");
-// }
